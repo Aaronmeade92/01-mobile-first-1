@@ -1,0 +1,17 @@
+
+
+#ham-menu {
+    display: block;
+  }
+  #nav-menu {
+    display: none;
+  }
+  @media only screen and (min-width: 640px) {
+    #nav-menu {
+      display: block;
+    }
+  
+    #ham-menu {
+      display: none;
+    }
+}
